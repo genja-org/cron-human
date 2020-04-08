@@ -1,0 +1,16 @@
+{
+    "name": "genja-org/cron-human",
+    "description": "cli tool to convert human to cron",
+    "type": "project",
+    "require": {
+        "bentools/natural-cron-expression": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaroslav Rakhmatoullin",
+            "email": "jazzoslav@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

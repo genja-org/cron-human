@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "52cf7d6bdba3643900547faba3232518",
+    "packages": [
+        {
+            "name": "bentools/natural-cron-expression",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bpolaszek/natural-cron-expression.git",
+                "reference": "9dd1a178f5381e2bdd45f8724d5157d109b65539"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bpolaszek/natural-cron-expression/zipball/9dd1a178f5381e2bdd45f8724d5157d109b65539",
+                "reference": "9dd1a178f5381e2bdd45f8724d5157d109b65539",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "mtdowling/cron-expression": "Computes previous / next run dates of a cron expression"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BenTools\\": "src/BenTools"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Beno!t POLASZEK"
+                }
+            ],
+            "description": "A parser that converts natural language to a cron expression",
+            "time": "2016-05-06T14:08:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
